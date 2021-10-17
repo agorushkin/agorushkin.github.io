@@ -1,42 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
 
-    html, body {
-      height: 100%;
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      background-color: #24292e;
-      color: #fff;
-      font-family: 'Noto Sans Mono', monospace;
-      overflow: hidden;
-    }
- 
-    #container {
-      margin: 0 auto;
-      width: 50%;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    } 
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #24292e;
+  color: #fff;
+  font-family: 'Noto Sans Mono', monospace;
+  overflow: hidden;
+}
 
-    .title {
-      margin-top: -5px;
-      margin-bottom: -5px;
-    }
+#container {
+  margin: 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
 
-    .list {
-      list-style-type: none;
-      margin-left: -30px;
-    }
+.title {
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
 
-    a {
-      color: #fff;
-      text-decoration: none;
-      transition: all 0.10s ease-in-out;
-      border-bottom: 0em solid transparent;
-    }
+.list {
+  list-style-type: none;
+  margin-left: -30px;
+}
 
-    a:hover {
-      border-bottom: 0.1em solid #fff;
-    }
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.10s ease-in-out;
+  display:inline-block;
+}
+
+a:hover {
+  color: #77bdfb;
+  transform: scale(1.05);
+}

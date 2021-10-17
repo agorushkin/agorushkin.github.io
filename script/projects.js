@@ -3,7 +3,7 @@
   const repos    = (await rawRepos.json()).filter(repo => repo.name[0] !== '.' && !/agorushkin/g.test(repo.name));
 
   const list = document.querySelector('#projects');
-  list.firstChild.dataset.complete = true;
+  list.firstChild.dataset.complete = 1;
 
   for (const repo of repos) {
     const li = document.createElement('li');
